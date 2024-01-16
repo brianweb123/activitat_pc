@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Garantía - Tu Tienda de Componentes</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px; 
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px; 
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        #politica-garantia {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #politica-garantia h2,
+        #politica-garantia h3,
+        #politica-garantia p {
+            margin-bottom: 15px; 
+        }
+
+        button#btnVolverArriba {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px; 
+        }
+
+        button#btnVolverArriba:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .imagen-redonda {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PCLand <br>Tu Tienda de Componentes</h1>
+        <img src="../imagenes/banner.avif" alt="Banner" width="300" height="200" class="imagen-redonda">
+    </header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../paginas/contacto.html">Contacto</a>
+    </nav>
+
+    <section id="politica-garantia">
+        <a href="../paginas/FAQ.html"> Volver a atrás </a>
+        <h2>Política de Garantía</h2>
+
+        <p>
+            Nos comprometemos a proporcionar productos de alta calidad y respaldamos nuestros productos con una política de garantía sólida.
+            A continuación, encontrarás detalles importantes sobre nuestra política de garantía.
+        </p>
+
+        <h3>Duración de la Garantía</h3>
+        <p>La duración de la garantía varía según el tipo de producto. Consulta la documentación del producto o contacta con nuestro equipo de soporte para obtener información detallada.</p>
+
+        <h3>Proceso de Reclamación</h3>
+        <p>Si experimentas problemas cubiertos por la garantía, por favor, sigue estos pasos para iniciar una reclamación:
+            <ol>
+                <li>Contacta con nuestro equipo de soporte técnico para informar sobre el problema.</li>
+                <li>Proporciona la información necesaria y sigue las instrucciones del equipo de soporte.</li>
+                <li>Envía el producto defectuoso de vuelta, según las indicaciones proporcionadas por nuestro equipo de soporte.</li>
+                <li>Nosotros evaluaremos el problema y te proporcionaremos una solución, que puede incluir reparación, reemplazo o reembolso.</li>
+            </ol>
+        </p>
+
+        <h3>Exclusiones de la Garantía</h3>
+        <p>Algunas situaciones pueden estar excluidas de la garantía. Estos pueden incluir daños causados por mal uso, modificaciones no autorizadas o desgaste normal del producto. 
+            Consulta la documentación del producto para conocer las exclusiones específicas.</p>
+
+    </section>
+
+    <button id="btnVolverArriba" onclick="volverArriba()">Volver arriba</button>
+
+    <script>
+        // Función para desplazarse suavemente hacia arriba
+        function volverArriba() {
+            document.body.scrollTop = 0; // Para navegadores antiguos
+            document.documentElement.scrollTop = 0; // Para navegadores modernos
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Tu Tienda de Componentes</p>
+    </footer>
+
+</body>
+</html>
